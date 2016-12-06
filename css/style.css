@@ -1,0 +1,428 @@
+h1,h2,h3,h4,h5,h6,p,a,span,input,button {
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.marginCenter {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.vendorFlex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.nonMarginDesc {
+    margin: 0;
+}
+
+.allButtonStyle {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fefefe;
+    background: #95c5cf;
+    border-radius: 25px;
+    height: 40px;
+    transition: all .3s;
+    outline: none !important;
+    border: none;
+    line-height: 26px;
+}
+
+.allButtonStyle:hover {
+    background: #80b2ba;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/**********HEADER**********/
+.headerAll {
+    padding-top: 30px;
+}
+
+.headerInfo {
+    padding-bottom: 15px;
+}
+
+.cityInfo p a {
+    font-weight: 400;
+    color: #1c1d21;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.cityInfo p {
+    font-weight: 400;
+    color: #1c1d21;
+    font-size: 15px;
+}
+
+.cityBlock {
+    margin-bottom: 34px;
+}
+
+.backCall {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.logoBlock {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.someTelephoneHead {
+    padding-top: 12px;
+    text-align: right;
+}
+
+.someTelephoneHead p {
+    font-size: 18px;
+    margin: 0;
+}
+
+p.opasTextTelephone {
+    color: #a5a5a5;
+    text-align: right;
+    font-size: 13px;
+}
+
+.navsAll li {
+    display: inline-block;
+    margin: auto;
+}
+
+.containerNavs {
+    background: #ececec;
+}
+
+.navsAll {
+    padding: 20px 0;
+}
+
+.navsAll li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1c1d21;
+    font-size: 15px;
+    transition: all .3s;
+}
+
+.searchBlockAll {
+    padding-top: 15px;
+}
+
+.cartButton {
+    width: 100%;
+}
+
+.cartButtonBlock {
+    position: relative;
+}
+
+.searchInput {
+    width: 100%;
+    border:2px solid #95c5cf;
+    border-radius: 25px;
+    padding: 8px 16px;
+    outline: none !important;
+}
+
+.searchInput::-webkit-input-placeholder {
+    color: #95c5cf;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 15px;
+    color: #95c5cf;
+    cursor: pointer;
+}
+
+.countCartAll {
+    position: absolute;
+    top: -15px;
+    right: 4px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+}
+
+.countCartAll span {
+    font-weight: 600;
+    font-size: 14px;
+    margin: auto;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #95c5cf;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.navsIcons {
+    margin-top: 15px;
+}
+
+.navsIcons li {
+    width: 20%;
+    text-align: center;
+}
+
+.navsIcons li img {
+    margin-bottom: 10px;
+}
+
+.navsIcons li a {
+    display: block;
+}
+
+.navsIcons li a span {
+    display: block;
+}
+
+.slider1.slick-dotted.slick-slider {
+    margin-bottom: 80px ;
+    padding: 0 15px;
+}
+
+.blockSliderImg1 {
+    height: 440px;
+    width: 100%;
+    background: url("../img/sl2.jpg") no-repeat center;
+}
+
+.blockSliderImg2 {
+    height: 440px;
+    width: 100%;
+    background: url("../img/sl2.jpg") no-repeat center;
+}
+
+.blockSliderImg3 {
+    height: 440px;
+    width: 100%;
+    background: url("../img/sl2.jpg") no-repeat center;
+}
+
+.slTextTitle {
+    font-style: italic;
+}
+
+.slider1 .slick-next {
+    right: 30px;
+}
+
+.slider1 .slick-prev {
+    left: 25px;
+    z-index: 2000;
+}
+
+.slider1 .slick-prev:before {
+    color: transparent;
+    font-size: 24px;
+    opacity: 1;
+    background: url("../img/leftArr.png") no-repeat center;
+}
+
+.slider1 .slick-next:before {
+    color: transparent;
+    font-size: 24px;
+    opacity: 1;
+    background: url("../img/rightArr.png") no-repeat center;
+}
+
+.slider1 .slick-dots {
+    bottom: 15px;
+}
+
+.slider1 .slick-dots li {
+    border: 2px solid #fff;
+    width: 15px;
+    height: 15px;
+}
+
+.slider1 .slick-dots li.slick-active {
+    background: #fff;
+}
+
+.slider1 .slick-dots li button:before {
+    opacity: 0;
+}
+
+.checkboxStyle {
+    vertical-align: top;
+    width: 17px;
+    height: 17px;
+    margin: 0 3px 0 0;
+}
+.checkboxStyle + label {
+    cursor: pointer;
+}
+.checkboxStyle:not(checked) {
+    position: absolute;
+    opacity: 0;
+}
+.checkboxStyle:not(checked) + label {
+    position: relative;
+    border: 2px solid #9bc6cd;
+    border-radius: 50%;
+    background: #FFF;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+}
+
+.checkboxStyle:not(checked) + label:after {
+    content: url(../img/checkedImg.png);
+    top: 1px;
+    left: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all .3s;
+    position: absolute;
+    margin: auto;
+}
+
+.checkboxStyle:checked + label:after {
+    opacity: 1;
+    background:  no-repeat center;
+}
+
+.checkFilters {
+    padding: 0;
+}
+
+.blockFilters {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 16px;
+}
+
+.textFiltersBlockName {
+    padding: 0;
+}
+
+.checkedText {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.accordBlock {
+    position: relative;
+}
+
+.titleAccord {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0 0 12px 0;
+    cursor: pointer;
+}
+
+.arrowAccord {
+    position: absolute;
+    right: 0;
+    top: 3px;
+    cursor: pointer;
+}
+
+.notActiveAccords {
+    opacity: 0.5;
+}
+
+.arrowAccord {
+    transition: all .3s;
+}
+
+.notActiveAccords span{
+    transform: rotate(90deg);
+}
+
+.titleContentStyle {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.styleCardsAll1 {
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+}
+
+.styleCardsAll1 img {
+    min-height: 220px;
+    max-height: 220px;
+}
+
+.styleCardsAll1 h3 {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.trhouthText {
+    text-decoration: line-through;
+}
+
+.priceActionList {
+    text-align: center;
+    color: #8a8a8a;
+    font-size: 13px;
+}
+
+.newCostText {
+    text-align: center;
+    font-weight: bold;
+}
+
+.btnAllCarts {
+    color: #95c5cf;
+    border: 2px solid #95c5cf;
+    border-radius: 25px;
+    background-color: transparent;
+    transition: background-color, color .3s;
+    font-weight: bold;
+}
+
+.btnAllCarts:hover {
+    border: 2px solid #95c5cf;
+    background-color: #95c5cf;
+    color: #fff;
+}
+
+.padd10px {
+    padding: 0 10px;
+}
+
+.thumbnail.styleCardsAll1 .caption {
+    padding: 9px 0;
+    color: #333;
+    text-align: center;
+}
