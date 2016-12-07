@@ -9,6 +9,19 @@
             slidesToShow: 1
         });
 
+        //Cards List
+        $('.cartButton ').on('click', function () {
+            $('.cratsListAddedAll').slideToggle();
+        });
+
+        //City modal
+        $('.modalCityList').on('click','li > a', function (event) {
+            event.preventDefault();
+            $('.modalCityList').find('li').find('a').removeClass('activeCity');
+            $(this).addClass('activeCity');
+            $('#myModal1').modal('hide');
+            $('.cityPosition').text($(this).text());
+        });
 
         //Filters accordion
         $('.titleAccord').on('click', function () {
@@ -22,8 +35,6 @@
                 $(this).parent().parent().find('.accordToggleSlide').slideToggle();
             }
         });
-
-
 
         //Link scrollTop
         $('.linkTopClick').on('click', function (event) {

@@ -23,12 +23,53 @@
     <![endif]-->
 </head>
 <body>
+<div class="modal fade" tabindex="-1" role="dialog" id="myModal1">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <h2 class="modal-title">Выберите свой город</h2>
+            <div class="modal-body">
+                <ul class="modalCityList">
+                    <li>
+                        <a href="#">Санкт-Петербург</a>
+                    </li>
+                    <li>
+                        <a href="#">Москва</a>
+                    </li>
+                    <li>
+                        <a href="#">Белгород</a>
+                    </li>
+                    <li>
+                        <a href="#">Великий Новгород</a>
+                    </li>
+                    <li>
+                        <a href="#">Воронеж</a>
+                    </li>
+                    <li>
+                        <a href="#">Гатчина</a>
+                    </li>
+                    <li>
+                        <a href="#">Липецк</a>
+                    </li>
+                    <li>
+                        <a href="#">Петрозаводск</a>
+                    </li>
+                    <li>
+                        <a href="#">Череповец</a>
+                    </li>
+                    <li>
+                        <a href="#">Ярославль</a>
+                    </li>
+                </ul>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 <header class="headerAll">
     <div class="container-fluid">
         <div class="container">
             <div class="row headerInfo">
                 <div class="col-lg-3 cityInfo">
-                    <p class="cityBlock">Ваш город: <a href="#">Москва</a></p>
+                    <p class="cityBlock">Ваш город: <a href="#" class="cityPosition" data-toggle="modal" data-target="#myModal1">Москва</a></p>
                     <p class="nonMarginDesc">PINFIN</p>
                     <p class="nonMarginDesc">Интернет магазин детской одежды
                         европейского качества</p>
@@ -86,6 +127,19 @@
                     <div class="countCartAll vendorFlex">
                         <span>2</span>
                     </div>
+                    <ul class="cratsListAddedAll">
+                        <li class="vendorFlex">
+                            <img src="./img/minImg.png" alt="">
+                            <a href="#">Комбинезон NAALA</a>
+                            <span class="cardsListRemove glyphicon glyphicon-remove"></span>
+                        </li>
+                        <li class="vendorFlex">
+                            <img src="./img/minImg.png" alt="">
+                            <a href="#">Комбинезон NAALA</a>
+                            <span class="cardsListRemove glyphicon glyphicon-remove"></span>
+                        </li>
+                        <button class="openCarts allButtonStyle">ПЕРЕЙТИ В КОРЗИНУ</button>
+                    </ul>
                 </div>
             </div>
             <ul class="navsIcons navsAll vendorFlex">
@@ -896,32 +950,53 @@
                         <p class="textSocial">Мы в соц.сетях:</p>
                         <ul class="socialsList">
                             <li>
-                                <a href="#">
+                                <a href="#" class="vendorFlex">
                                     <i class="fa fa-facebook" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" class="vendorFlex">
                                     <i class="fa fa-vk" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" class="vendorFlex">
                                     <i class="fa fa-google-plus" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" class="vendorFlex">
                                     <i class="fa fa-instagram" aria-hidden="true"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <img src="./img/footerLogo.png" alt="">
+                <div class="col-lg-2 col-lg-offset-2 footerLogo">
+                    <a href="#">
+                        <img src="./img/footerLogo.png" alt="">
+                    </a>
                 </div>
-                <div class="col-lg-3"></div>
+                <div class="col-lg-3 col-lg-offset-2">
+                    <div class="someTelephoneHead">
+                        <p>8-800-000-00-00</p>
+                        <p>8-800-000-00-00</p>
+                        <p class="opasTextTelephone footerTel">С 8.00 до 22.00 без обеда и выходных</p>
+                    </div>
+                    <ul class="footerListCont">
+                        <li>Skype: pinfin</li>
+                        <li>Viber: 8-800-00-00</li>
+                        <li>WhatsApp: 8-800-00-00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row createdBlock">
+                <div class="col-md-2">
+                    <p class="copyRightText">Copyright © 2016 PINFIN</p>
+                </div>
+                <div class="col-md-2 col-md-offset-8 createdBy">
+                    Сделано в <a href="#">IVE</a>
+                </div>
             </div>
         </div>
     </div>

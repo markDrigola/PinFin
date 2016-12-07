@@ -64,6 +64,10 @@ ul {
     font-size: 15px;
 }
 
+.cityPosition {
+    outline: none !important;
+}
+
 .cityInfo p {
     font-weight: 400;
     color: #1c1d21;
@@ -554,7 +558,7 @@ p.opasTextTelephone {
 .linkTopClick {
     float: right;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .linkTopClick a {
@@ -572,3 +576,555 @@ p.opasTextTelephone {
 .socialBlock {
     margin-top: 23px;
 }
+
+.socialsList li {
+    display: inline-block;
+}
+
+.socialsList li a {
+    background: #94c5cf;
+    transition: all .3s;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.socialsList li a i {
+    margin: auto;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.footerLogo {
+    text-align: center;
+}
+
+.allFooter {
+    margin-top: 80px;
+}
+
+.footerListCont {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.footerListCont li {
+    font-size: 13px;
+}
+
+.opasTextTelephone.footerTel {
+    text-align: right;
+    font-size: 13px;
+    color: #231f20;
+}
+
+.allFooter .opasTextTelephone {
+    padding-top: 2px;
+}
+
+.copyRightText {
+    color: #a5a5a5;
+    font-size: 13px;
+}
+
+.createdBy {
+    text-align: right;
+    color: #a5a5a5;
+}
+
+.createdBy a {
+    font-size: 13px;
+    text-decoration: none !important;
+    color: #a5a5a5;
+}
+
+.createdBlock {
+    margin-top: 40px;
+}
+
+.cratsListAddedAll {
+    position: absolute;
+    background: #ECECEC;
+    width: 280px;
+    right: 13px;
+    top: 43px;
+    padding: 18px 18px;
+    display: none;
+    z-index: 1;
+}
+
+.cratsListAddedAll img {
+    margin: auto;
+    width: 46px;
+    height: 46px;
+    margin-left: 0;
+}
+
+.cratsListAddedAll a {
+    margin: auto;
+    font-size: 13px;
+    text-decoration: underline;
+    color: inherit;
+}
+
+.cratsListAddedAll span {
+    margin: auto;
+    cursor: pointer;
+    margin-right: 0;
+}
+
+.cratsListAddedAll li {
+    margin-bottom: 10px;
+}
+
+.openCarts {
+    width: 100%;
+    margin-top: 8px;
+}
+
+#myModal1 .modal-title {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    color: #95c5cf;
+}
+
+.modalCityList li {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.modalCityList li a {
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #1c1d21;
+}
+
+.modalCityList li a.activeCity {
+    color: #95c5cf;
+}
+
+#myModal1 .modal-content {
+    width: 400px;
+    margin: auto;
+    padding: 50px 30px 50px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/***************SALES***************/
+
+.slaesMain {
+    padding-top: 20px;
+    margin-top: 50px;
+    background: #fafafa;
+}
+
+.margTitleStyleAll {
+    margin: 45px auto;
+}
+
+.bradCrumbsPage {
+    margin-bottom: 45px;
+}
+
+.crambsList li {
+    display: inline-block;
+}
+
+.crambsList li a {
+    color: #1c1d21;
+}
+
+.boxSalesStyle h3 {
+    color: #1c1d21;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.boxSalesStyleText {
+    padding-top: 12px;
+    color: #727272;
+}
+
+.salesBoxBlockMarg {
+    padding-bottom: 25px;
+}
+
+.salesBoxBlockMarg .thumbnail {
+    background: transparent;
+}
+
+.salesBoxBlockMarg .thumbnail .caption {
+    padding: 9px 0;
+}
+
+.allLinkMargTop {
+    padding: 0;
+}
+
+
+
+
+
+
+
+/***************BLOG***************/
+
+.titleLightBlue {
+    color: #95c5cf;
+    font-weight: bold;
+    border-bottom: 2px solid;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.titleLightBlue a {
+    color: #95c5cf;
+    text-decoration: none !important;
+}
+
+.titleLightBlue:hover {
+    border-color: transparent;
+}
+
+.podTemasTitle {
+    color: #fff;
+    background: #95c5cf;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 18px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.blockDopTemasHover {
+    position: relative;
+}
+
+.blogLeftNavs {
+    padding-right: 90px;
+}
+
+.dopTemasHov li {
+    padding: 12px 18px;
+    color: #95c5cf;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.dopTemasHov li a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+.dopTemasHov {
+    border: 2px solid #95c5cf;
+    position: relative;
+    top: -30px;
+    width: 100%;
+    padding-top: 20px;
+    z-index: 1;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.blockDopTemasHover:hover .podTemasTitle {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.blockDopTemasHover:hover .dopTemasHov {
+    display: block;
+    opacity: 1;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.titlesNewSubscription {
+    color: #95c5cf;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.allInputStyle {
+    outline: none !important;
+    border-radius: 25px;
+    border: 2px solid #e4e3e3;
+    padding: 8px 20px;
+    width: 100%;
+}
+
+.subscriptionForm {
+    text-align: center;
+    padding: 0 35px;
+}
+
+.formSubsText {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.subscriptionForm .allButtonStyle {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.podTemasTitle span {
+    color: #fff;
+    position: absolute;
+    height: 15px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+}
+
+.articleImg {
+    height: 210px;
+}
+
+.articleImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.paragText {
+    color: #727272;
+    padding-left: 10px;
+}
+
+.blogOpisText {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-left: 10px;
+    color: #727272;
+}
+
+.blogOpisTextAll {
+    padding-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
