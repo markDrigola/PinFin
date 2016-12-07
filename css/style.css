@@ -67,7 +67,7 @@ ul {
 .cityInfo p {
     font-weight: 400;
     color: #1c1d21;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .cityBlock {
@@ -368,12 +368,14 @@ p.opasTextTelephone {
     font-size: 36px;
     font-weight: bold;
     margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .styleCardsAll1 {
     -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
     -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
     box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    transition: box-shadow .3s;
 }
 
 .styleCardsAll1 img {
@@ -400,6 +402,7 @@ p.opasTextTelephone {
 .newCostText {
     text-align: center;
     font-weight: bold;
+    margin: 16px 0 16px 0;
 }
 
 .btnAllCarts {
@@ -409,6 +412,8 @@ p.opasTextTelephone {
     background-color: transparent;
     transition: background-color, color .3s;
     font-weight: bold;
+    padding: 6px;
+    margin-right: 8px;
 }
 
 .btnAllCarts:hover {
@@ -422,7 +427,148 @@ p.opasTextTelephone {
 }
 
 .thumbnail.styleCardsAll1 .caption {
-    padding: 9px 0;
+    padding: 9px 6px 15px;
     color: #333;
     text-align: center;
+}
+
+.styleCardsAll1:hover {
+    -webkit-box-shadow: 0px 0px 25px 10px rgba(212,230,234,1);
+    -moz-box-shadow: 0px 0px 25px 10px rgba(212,230,234,1);
+    box-shadow: 0px 0px 25px 10px rgba(212,230,234,1);
+}
+
+.boxFilterAndContent {
+    background: #fafafa;
+    padding-top: 80px;
+}
+
+.margTitleStyle {
+    margin-top: 65px;
+}
+
+.salesBlockStyleMain {
+    background: #95c5cf;
+    height: 130px;
+    border-radius: 0;
+}
+
+.salesBlockStyleMain img {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+
+.salesBlockStyleMain .caption {
+    margin: auto;
+    padding: 0;
+}
+
+.salesBlockStyleMain h3 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin: auto;
+}
+
+.linkFullSales {
+    color: #95c5cf;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all .3s;
+    font-size: 18px;
+}
+
+.linkFullSales:hover {
+    color: #95c5cf;
+    text-decoration: none;
+}
+
+.brendsMAinStyle {
+    height: 170px;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    transition: box-shadow .3s;
+    border: none;
+}
+
+.brendsMAinStyle:hover {
+    -webkit-box-shadow: 0px 0px 25px 10px rgba(212,230,234,1);
+    -moz-box-shadow: 0px 0px 25px 10px rgba(212,230,234,1);
+    box-shadow: 0px 0px 25px 10px rgba(212,230,234,1);
+}
+
+.brendsMAinStyle img {
+    margin: auto;
+}
+
+.notDecorLink {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.catalogsMAinStyle {
+    height: 300px;
+    padding: 70px 70px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    transition: box-shadow .3s;
+}
+
+.catalogsMAinStyle:hover {
+    -webkit-box-shadow: 0px 0px 25px 10px rgba(212,230,234,1);
+    -moz-box-shadow: 0px 0px 25px 10px rgba(212,230,234,1);
+    box-shadow: 0px 0px 25px 10px rgba(212,230,234,1);
+}
+
+.thumbnail {
+    border: none;
+    border-radius: 1px;
+}
+
+.textMainAll {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.textMainAll p {
+    color: #707071;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.kidsCatalog {
+    margin-top: 40px;
+}
+
+.linkTopClick {
+    float: right;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.linkTopClick a {
+    color: #5da1af;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+.linkTop {
+    display: block;
+    color: #5da1af;
+    font-size: 60px;
+}
+
+.socialBlock {
+    margin-top: 23px;
 }

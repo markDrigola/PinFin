@@ -21,6 +21,14 @@
 
                 $(this).parent().parent().find('.accordToggleSlide').slideToggle();
             }
+        });
+
+
+
+        //Link scrollTop
+        $('.linkTopClick').on('click', function (event) {
+            event.preventDefault();
+            $('body,html').animate({scrollTop: 0}, 800);
         })
     });
 })();
