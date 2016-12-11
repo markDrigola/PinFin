@@ -9,6 +9,22 @@
             slidesToShow: 1
         });
 
+        $('.sliderCards').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.sliderCardsMin'
+        });
+        $('.sliderCardsMin').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: true,
+            asNavFor: '.sliderCards',
+            dots: false,
+            focusOnSelect: true
+        });
+
         //Cards List
         $('.cartButton ').on('click', function () {
             $('.cratsListAddedAll').slideToggle();
@@ -41,5 +57,41 @@
             event.preventDefault();
             $('body,html').animate({scrollTop: 0}, 800);
         })
+
+
+        //tab - size
+        $('.sizeNav').on('click','li', function () {
+            var blockTabs = $('.tabsContent');
+            var navIndex = $(this).index();
+
+            $('.sizeNav').find('li').removeClass('active');
+            $(this).addClass('active');
+            blockTabs.css({
+                "display":"none"
+            });
+            blockTabs.eq(navIndex).fadeIn();
+        });
+
+        var startCountInpot = $('.inputCount').val();
+        $('.leftCountBlock').on('click', function () {
+            startCountInpot--;
+            if(startCountInpot === 0 || startCountInpot === -1 || startCountInpot < -1) {
+                startCountInpot = 0;
+                $('.inputCount').val(0);
+                return;
+            } else {
+                $('.inputCount').val(startCountInpot);
+            }
+
+        });
+
+        $('.rightCountBlock').on('click', function () {
+            startCountInpot++;
+            $('.inputCount').val(startCountInpot);
+        });
+
+        $('.zoom').zoomy();
+
+        $(".reviewsInfoBlock").customScrollbar();
     });
 })();

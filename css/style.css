@@ -26,6 +26,8 @@ ul {
     margin: 0;
 }
 
+
+
 .allButtonStyle {
     font-weight: bold;
     text-transform: uppercase;
@@ -44,7 +46,8 @@ ul {
     color: #fff;
 }
 
-.container-fluid {
+.container-fluid,
+.paddingNone {
     padding: 0;
 }
 
@@ -212,21 +215,25 @@ p.opasTextTelephone {
 }
 
 .blockSliderImg1 {
-    height: 440px;
+    /*height: 440px;*/
     width: 100%;
     background: url("../img/sl2.jpg") no-repeat center;
 }
 
 .blockSliderImg2 {
-    height: 440px;
+    /*height: 440px;*/
     width: 100%;
     background: url("../img/sl2.jpg") no-repeat center;
 }
 
 .blockSliderImg3 {
-    height: 440px;
+    /*height: 440px;*/
     width: 100%;
     background: url("../img/sl2.jpg") no-repeat center;
+}
+
+.blockSliderAll {
+    height: 440px;
 }
 
 .slTextTitle {
@@ -603,7 +610,7 @@ p.opasTextTelephone {
 }
 
 .allFooter {
-    margin-top: 80px;
+    margin-top: 65px;
 }
 
 .footerListCont {
@@ -618,7 +625,7 @@ p.opasTextTelephone {
 .opasTextTelephone.footerTel {
     text-align: right;
     font-size: 13px;
-    color: #231f20;
+    /*color: #231f20;*/
 }
 
 .allFooter .opasTextTelephone {
@@ -775,7 +782,9 @@ p.opasTextTelephone {
     padding: 0;
 }
 
-
+.leftReviews .nonBord {
+    border: none;
+}
 
 
 
@@ -916,14 +925,700 @@ p.opasTextTelephone {
 }
 
 .blogOpisText {
-    margin-top: 30px;
+    margin-top: 26px;
     margin-bottom: 0;
-    padding-left: 10px;
     color: #727272;
 }
 
 .blogOpisTextAll {
     padding-top: 12px;
+    padding-left: 10px;
+}
+
+.blogOpisTextList {
+    margin-top: 26px;
+}
+
+.blogOpisTextList li {
+    color: #727272;
+    font-family: 'Lato', sans-serif;
+    margin-top: 26px;
+}
+
+.blogOpisTextList li span {
+    color: #95c5cf;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.blogOpisTextList li span.blogOpisTextListOkay {
+    font-size: 12px;
+}
+
+.blogVideoBlock iframe {
+    width: 80%;
+    height: 350px;
+    margin: 50px auto 0;
+    display: block;
+}
+
+.allBlockComments {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.namePersonComm {
+    font-weight: bold;
+    color: #1c1d21;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.styleComments {
+    color: #8a8a8a;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.dateCommits {
+    font-size: 13px;
+}
+
+.addedNewCommentsForm {
+
+}
+
+.addedNewCommentsFormTitle {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1c1d21;
+    margin-top: 45px;
+}
+
+.inputTitleName {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nameAddNewCommSubmit {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.inputAddComTextarea {
+    height: 107px;
+}
+
+.inputGroupAddComm {
+    width: 29%;
+    float: left;
+}
+
+.textareaFormGroup {
+    width: 68%;
+    margin-left: 3%;
+    float: left;
+}
+
+.AllBlogStyle {
+    padding-bottom: 20px;
+}
+
+.AllBlogStyle .linkTopClick {
+    padding-top: 40px;
+}
+
+.margTopBlogAll {
+    margin-top: 40px;
+}
+
+.allBlogParagText {
+    text-align: right;
+    padding: 0;
+    padding-top: 10px;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.dateParagText {
+    float: left;
+}
+
+.titleBrendsName {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.sertificateList li {
+    width: 23%;
+    float: left;
+    margin-right: 2.6%;
+}
+
+.sertificateList li:last-child {
+    margin: 0;
+}
+
+.sertificateList li img {
+    width: 100%;
+}
+
+.blockSertificateBrends {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.brendBlueTitle {
+    text-align: center;
+}
+
+.brendBlueTitle h4 {
+    font-weight: 500;
+}
+
+.brendLinkTop {
+    padding-top: 0;
+}
+
+.brendAllTitleMargNotCrambs {
+    margin-top: 100px;
+}
+
+.marginTopNone {
+    margin-top: 0;
+}
+
+.tittleMap  {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.tittleMap a {
+    text-decoration: underline;
+    color: #1c1d21;
+}
+
+.deliveryLinkTop {
+    padding-top: 50px;
+}
+
+.brandMain {
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.sizeMediumText {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1c1d21;
+    text-align: center;
+}
+
+.sizeNav {
+    padding-top: 80px;
+}
+
+.sizeNav li {
+    float: left;
+    display: inline-block;
+    width: 16.66%;
+    text-align: center;
+    letter-spacing: 0.85px;
+    transition: all .3s;
+    min-height: 370px;
+    cursor: pointer;
+}
+
+.sizeNav li img {
+    height: 308px;
+}
+
+.sizeNav li p {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.mainColor {
+    background-color: #fafafa;
+}
+
+.sizeNav li.active {
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    position: relative;
+}
+
+.sizeNav li.active:before {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    width: 100%;
+    height: 15px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 2;
+}
+
+.sizeNav li.active p {
+    color: #009fe3;
+}
+
+.tabsContent {
+    display: none;
+    padding: 50px 0;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+}
+
+.startTabs {
+    display: block;
+}
+
+.textSizeTabs {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.startTabs img {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tableSizeBlok img {
+    margin-top: 20px;
+}
+
+.imgBord img {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.sliderCards a {
+    display: block;
+    margin: 0 auto;
+}
+
+.sliderCardsMin {
+    margin-top: 40px;
+}
+
+.sliderCardsMin .slick-next {
+    height: 40px;
+    /*right: 0;*/
+}
+
+.sliderCardsMin .slick-next:before {
+    font-size: 28px;
+    color: transparent;
+    background: url("../img/rigtCardArr.png") no-repeat center;
+}
+
+.sliderCardsMin .slick-prev:before {
+    font-size: 28px;
+    color: transparent;
+    background: url("../img/cardleftArr.png") no-repeat center;
+}
+
+.imgBord {
+    padding: 8px;
+    margin: 0 10px;
+    border: 2px solid #ececec;
+    width: 124px;
+    height: 130px;
+}
+
+.allCardsBlock {
+    padding: 40px 30px 30px 50px;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+}
+
+.slick-slide {
+    outline: none !important;
+}
+
+.slick-slide.slick-current .imgBord {
+    border: 2px solid #1c1d21;
+}
+
+.titleBlockOpisCards {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.articles {
+    font-size: 13px;
+    color: #8a8a8a;
+}
+
+.blocSkidCost {
+    color: #8a8a8a;
+}
+
+.blocSkidCost {
+    position: relative;
+    margin-top: -10px;
+}
+
+.bigCost {
+    color: #95c5cf;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 30px;
+    position: relative;
+}
+
+.costNone {
+    margin-left: 30px;
+    text-decoration: line-through;
+}
+
+.textNall {
+    padding-top: 35px;
+}
+
+.addCountBlock {
+    margin-top: 10px;
+    border-top: 2px solid #ececec;
+    border-bottom: 2px solid #ececec;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.leftCountBlock {
+    padding: 4px 0 0 12px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f1f1f1;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+.rightCountBlock {
+    padding: 4px 0 0 7px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f1f1f1;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+.allFloatLeft {
+    float: left;
+}
+
+.inputOverFlow  {
+    width: 40px;
+    overflow: hidden;
+
+}
+
+.inputCount {
+    height: 30px;
+    border: 2px solid #f1f1f1;
+    outline: none !important;
+    padding-left: 15px;
+}
+
+.margAuto {
+    margin: auto;
+}
+
+.countText {
+    margin: 0;
+}
+
+.margAutoTop {
+    margin: auto 0;
+    width: 93px;
+}
+
+.listSizeForm li {
+    border-radius: 18px;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    height: 33px;
+    vertical-align: middle;
+    line-height: 2;
+    font-size: 15px;
+    transition: all .3s;
+    margin-right: 6px;
+}
+
+.opasList {
+    opacity: 0.4;
+}
+
+.listSizeForm li:hover {
+    background: #a5a5a5;
+    border-color: #a5a5a5;
+}
+
+.listSizeForm {
+    width: 420px;
+    padding-left: 3px;
+}
+
+.topFormBlock {
+    margin-top: 20px;
+}
+
+.middleFormBlock {
+    margin-top: 25px;
+}
+
+.btnAllCarts:focus,
+.btnAllCarts:active {
+    color: #95c5cf !important;
+    border: 2px solid #95c5cf !important;
+    background: inherit !important;
+}
+
+.italTextCard {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bottomBlockInfoText {
+    color: #727272;
+    line-height: 19px;
+}
+
+.buttonSizeModal {
+    width: 100%;
+    margin-top: 30px;
+    height: 52px;
+    font-size: 20px;
+    padding-top: 11px;
+}
+
+.navsIconCards li {
+    width: 31%;
+    text-align: left;
+}
+
+.navsIconCards li:last-child {
+    width: 36%;
+}
+
+.cardsTitleMarg {
+    margin-left: 90px;
+}
+
+.leftReviews {
+    padding-left: 0;
+}
+
+.leftReviews .titleLightBlue {
+    font-size: 17px;
+}
+
+.cardsReviews {
+    padding-top: 30px;
+}
+
+.reviewsInfoBlock {
+    height: 300px;
+}
+
+.scrollable .scroll-bar.vertical .thumb {
+    width: 4px;
+    background: #a5a5a5;
+    cursor: pointer;
+}
+
+.rightReviews .inputAddComTextarea {
+    height: 127px;
+}
+
+.cardsReviews {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #a5a5a5;
+}
+
+
+.thisCenter {
+    text-align: center;
+}
+
+.thisCenter .titleLightBlue {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contactMain {
+    min-height: 600px;
+}
+
+.cartTitleBlock {
+
+}
+
+.borderBottomCartTitle {
+    border-bottom: 2px solid #ececec;
+}
+
+.colorTransparent {
+    color: transparent;
+}
+
+.normTextCartList {
+    padding-top: 15px;
+}
+
+.cartTitleText {
+    font-weight: bold;
+}
+
+.listCartAll {
+    font-family: 'Lato', sans-serif;
+}
+
+.firstCost {
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.secondCost {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cartDelGlif {
+    color: #95c5cf;
+}
+
+.thStyle {
+
+}
+
+.panel-default {
+    border: none;
+    padding: 40px 20px;
+    -webkit-box-shadow: 0px 6px 14px 0px rgba(230,232,237,1);
+    -moz-box-shadow: 0px 6px 14px 0px rgba(230,232,237,1);
+    box-shadow: 0px 6px 14px 0px rgba(230,232,237,1);
+}
+
+.nonBorderAll {
+    border-top: none !important;
+}
+
+.listOpisTov li {
+    font-size: 16px;
+    line-height: 31px;
+}
+
+.allTextRight {
+    text-align: right;
+}
+
+.blockStyleInsetTable {
+    padding-top: 15px;
+}
+
+.promoBlock .titleLightBlue {
+    border: none;
+    font-size: 16px;
+}
+
+.promoBlock {
+    padding: 20px 0 14px;
+    border-bottom: 2px solid #ececec;
+}
+
+.promoBlock span {
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+.inputPromoCode {
+
+}
+
+.paddinLeftNone {
+    padding-left: 0;
+}
+
+.cardSkidkaButton {
+    width: 100%;
+}
+
+.buttonBlockCard {
+    padding-top: 25px;
+}
+
+.costZakMin {
+    font-weight: bold;
+    font-size: 13px;
+    text-align: right;
+}
+
+.costZakBig {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: right;
+}
+
+.costZakMin.text-left,
+.costZakBig.text-left {
+    text-align: left;
+}
+
+.titlePriceDel {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.cartBlockDelPrice {
+    padding: 15px 0;
+}
+
+.delSomeText {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #727272;
+}
+
+.mapCarts {
+    padding-top: 36px;
+}
+
+.buttonCartAll .allButtonStyle {
+    width: 80%;
+    height: 43px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -932,31 +1627,314 @@ p.opasTextTelephone {
 
 
 
+/*************MEDIA*************/
+
+@media (max-width: 1199px) {
+    .paddingNoneMedia1199 {
+        padding: 0;
+    }
+
+    .catalogsMAinStyle {
+        padding: 70px 30px;
+    }
+
+    .allCardsBlock {
+        padding:40px 0;
+    }
+
+    .imgBord {
+        width: 104px;
+        height: 110px;
+    }
+
+    .sliderCardsMin .slick-prev {
+        left: -17px;
+    }
+
+    .sliderCardsMin .slick-next {
+        right: -17px;
+    }
+}
+
+@media (max-width: 991px) {
+    .mediaPadding991 {
+        padding: 0;
+    }
+
+    .navsIcons li {
+        width: 100%;
+    }
+
+    .allButtonStyle {
+        font-size: 11px;
+    }
+
+    .titleContentStyle {
+        font-size: 28px;
+    }
+
+    .catalogsMAinStyle {
+        padding: 50px 0px;
+        height: 250px;
+    }
+
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    body,html {
+        overflow-x: hidden;
+    }
+
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .blogLeftNavs {
+        padding-right: 0px;
+    }
+
+    .articleImg {
+        height: 130px;
+    }
+
+    .blogVideoBlock iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .brendAllTitleMargNotCrambs {
+        margin-top: 0;
+    }
+
+    .brandBlockImg img {
+        width: 100%;
+    }
+
+    .sliderCardsMin {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blockCardOpis {
+        margin-top: 20px;
+    }
+
+    .listSizeForm {
+        width: 100%;
+    }
+
+    .mediaWidth {
+        width: 100%;
+    }
+
+    .countText {
+        padding-top: 6px;
+    }
+
+    .navsIcons li,.navsIconCards li:last-child {
+        text-align: center;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .cityInfo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .logoBlock {
+        margin-bottom: 10px;
+    }
+
+    .telephoneHeadBlock,
+    .someTelephoneHead,
+    p.opasTextTelephone {
+        text-align: center;
+    }
+
+    .paddingNoneMedia767 {
+        padding: 0;
+    }
+
+    .navsIcons {
+        display: block;
+    }
+
+    .navsAll {
+        display: block;
+    }
+
+    body,html {
+        overflow-x: hidden;
+    }
+
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .navsIcons li a span {
+        margin-bottom: 15px;
+    }
+
+    .slider1.slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+
+    .cartButtonBlock {
+        margin-top: 20px;
+    }
+
+    .titleContentStyle {
+        font-size: 18px;
+    }
+
+    .margTitleStyle {
+        margin-top: 15px;
+    }
+
+    .createdBlock,
+    .createdBy {
+        text-align: center;
+    }
+
+    .createdBy {
+        margin-bottom: 15px;
+    }
+
+    .allFooter,
+    .opasTextTelephone.footerTel,
+    .footerListCont {
+        text-align: center !important;
+    }
+
+    .blockSliderAll {
+        height: 300px;
+    }
+
+    .textMainAll p {
+        padding: 0 15px;
+    }
+
+    .linkTopClick {
+        float: none;
+    }
+
+    #myModal1 .modal-content {
+        width: 300px;
+    }
+
+    .marginInputStyleBlog {
+        margin-top: 30px;
+    }
+
+    .subscriptionForm {
+        padding: 0;
+    }
+
+    .blogLeftNavs {
+        padding-right: 15px;
+    }
+
+    .articleImg {
+        height: 300px;
+    }
+
+    .slaesMain {
+        margin-top: 0;
+    }
+
+    .allBlockComments {
+        padding-left: 0;
+    }
+
+    .inputGroupAddComm,
+    .textareaFormGroup {
+        width: 100%;
+        margin: 0;
+    }
+
+    .blogOpisTextAll {
+        padding-left: 0;
+    }
+
+    .mediaMargImg {
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .paragText {
+        padding: 0;
+    }
+
+    .footerLogo {
+        margin-top: 20px;
+    }
+
+    .brandBlockImg {
+        margin-bottom: 30px;
+    }
+
+    .titleBlockOpisCards {
+        font-size: 21px;
+    }
+
+    .topFormBlock {
+        display: block;
+        text-align: center;
+    }
+
+    .countText,.margin767this {
+        margin-bottom: 10px;
+    }
+
+    .clearfixMedia:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+
+    .rightReviews {
+        padding: 0;
+    }
+
+}
 
 
 
 
 
+@media (max-width: 580px) {
+    .articleImg {
+        height: 180px;
+    }
+}
 
+@media (max-width: 480px) {
+    .sliderCardsMin {
+        display: none;
+    }
 
+    .leftReviews  .cardsTitleMarg {
+        margin-left: 4px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .zoom,.slick-slide img {
+        width: 100% !important;
+    }
+}
 
 
 
