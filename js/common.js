@@ -93,5 +93,10 @@
         $('.zoom').zoomy();
 
         $(".reviewsInfoBlock").customScrollbar();
+        
+        //burgerMenu
+        $('.burgerBlock').on('click','i', function () {
+            $('.navsAll').slideToggle();
+        })
     });
 })();
