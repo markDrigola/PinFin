@@ -25,6 +25,24 @@
             focusOnSelect: true
         });
 
+        
+        //SliderPopap
+        $('.sliderCardsPop').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            fade: true,
+            asNavFor: '.sliderCardsMinPop'
+        });
+        $('.sliderCardsMinPop').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            asNavFor: '.sliderCardsPop',
+            dots: false,
+            focusOnSelect: true
+        });
+
         //Cards List
         $('.cartButton ').on('click', function () {
             $('.cratsListAddedAll').slideToggle();
@@ -97,6 +115,12 @@
         //burgerMenu
         $('.burgerBlock').on('click','i', function () {
             $('.navsAll').slideToggle();
+        })
+
+        $('.openModalCard').on('click', function () {
+            $('.modal5').modal('show');
+            $('.sliderCardsMinPop').find('.slick-next').trigger('click');
+            $('.sliderCardsPop').find('.slick-next').trigger('click');
         })
     });
 })();

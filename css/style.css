@@ -137,15 +137,22 @@ p.opasTextTelephone {
     width: 100%;
 }
 
+.notAddedToCart {
+    background: #fff;
+    border: 2px solid #95c5cf;
+    color: #95c5cf;
+}
+
 .cartButtonBlock {
     position: relative;
 }
 
 .searchInput {
     width: 100%;
+    font-size: 16px;
     border:2px solid #95c5cf;
     border-radius: 25px;
-    padding: 8px 16px;
+    padding: 7px 16px;
     outline: none !important;
 }
 
@@ -1255,6 +1262,25 @@ p.opasTextTelephone {
     border: 2px solid #1c1d21;
 }
 
+.sliderCardsMinPop .slick-slide.slick-current .imgBord {
+    border: 2px solid #1c1d21;
+}
+
+.sliderCardsMinPop .slick-slide .imgBord {
+    border: 2px solid #fff;
+}
+
+.closeBlue {
+    z-index: 11111;
+    opacity: 1;
+}
+
+.closeBlue span {
+    color: #71c0d0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
 .titleBlockOpisCards {
     font-weight: bold;
     font-size: 30px;
@@ -1626,11 +1652,150 @@ p.opasTextTelephone {
     display: none;
 }
 
+.popapCartOpisTitle {
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
 
+.modal3 .modal-dialog {
+    width: 70%;
+}
 
+.margBot40px {
+    margin-bottom: 32px;
+}
 
+.modal3 .modal-content {
+    padding: 40px 20px 70px 20px;
+}
 
+.costOrderCart,
+.popapCartOpis {
+    font-size: 13px;
+    line-height: 16px;
+}
 
+.cartModalInput {
+    margin-bottom: 20px;
+}
+
+.buttonCartModal {
+    padding: 12px 71px;
+    height: 48px;
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+.modalTextCenter {
+    text-align: center;
+}
+
+.modal4 .modal-dialog {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal4 .modal-content {
+    padding: 40px 40px 70px 40px;
+}
+
+.tableSizeImgPopap img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modalSizeTitle {
+    border: none;
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.myStylePositionClose {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    z-index: 101010;
+}
+
+.openModalCard img {
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.sliderCardsMinPop {
+    margin-bottom: 30px;
+}
+
+.openModalCard {
+    outline: none !important;
+}
+
+.sliderCardsPop .slick-prev:before,
+.sliderCardsPop .slick-next:before {
+    color: transparent;
+}
+
+/*.modal5 .modal-dialog {*/
+    /*width: 75%;*/
+/*}*/
+
+.sliderCardsPop .slick-next {
+    background: url(../img/popArr.png) no-repeat center;
+    width: 30px;
+    height: 40px;
+    right: 20px;
+    z-index: 2000;
+}
+
+.sliderCardsPop .slick-prev {
+    background: url(../img/popArr2.png) no-repeat center;
+    width: 30px;
+    height: 40px;
+    left: 20px;
+    z-index: 2000;
+}
+
+.modal6 .modal-dialog {
+    width: 450px;
+}
+
+.modal6 .modal-content {
+    padding: 60px;
+}
+
+.modal7 .modal-dialog {
+    width: 450px;
+}
+
+.modal7 .modal-dialog .cratsListAddedAll {
+    position: relative;
+    display: block;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal7 .modal-content {
+    padding: 50px 20px;
+}
+
+.addedCartTitleModal {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
 /*************MEDIA*************/
 
 @media (max-width: 1199px) {
@@ -1666,6 +1831,18 @@ p.opasTextTelephone {
     .tableSizeBlok img {
         width: 100%;
     }
+
+    .modal3 .modal-dialog {
+        width: 90%;
+    }
+
+    .tableSizeImgPopap img {
+        width: 100%;
+    }
+
+    .sliderCardsMinPop .imgBord{
+        margin: auto;
+    }
 }
 
 @media (max-width: 991px) {
@@ -1693,6 +1870,10 @@ p.opasTextTelephone {
     .container-fluid {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .modal4 .modal-dialog {
+        width: 90%;
     }
 
     body,html {
@@ -1775,6 +1956,10 @@ p.opasTextTelephone {
     .sizeNav li {
         min-height: 310px;
     }
+
+    .modal3 .modal-content {
+        padding: 40px 0px 70px 0px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1808,6 +1993,40 @@ p.opasTextTelephone {
     .navsIcons {
         display: block;
     }
+
+    .modal6 .modal-dialog {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .modal7 .modal-dialog {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .modal6 .modal-content {
+        padding: 12px;
+    }
+
+    .modal7 .modal-content {
+        padding: 12px;
+    }
+
+    .modal7 .modal-dialog .cratsListAddedAll {
+        width: 100%;
+    }
+
+    .sliderCardsPop .slick-prev {
+        left: -10px;
+    }
+
+    .sliderCardsPop .slick-next {
+        right: -10px;
+    }
+
+
 
     .navsAll {
         display: none;
@@ -2002,6 +2221,16 @@ p.opasTextTelephone {
     #myModal1 .modal-title {
         font-size: 16px;
     }
+
+    .modal3 .modal-dialog {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .modalSizeTitle {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -2047,6 +2276,10 @@ p.opasTextTelephone {
         padding: 2px;
     }
 
+    .sliderCardsMinPop {
+        display: none;
+    }
+
     .listOpisTov li {
         font-size: 10px;
         line-height: 10px;
@@ -2054,6 +2287,10 @@ p.opasTextTelephone {
 
     .firstCost {
         font-size: 8px;
+    }
+
+    .modal4 .modal-content {
+        padding: 0;
     }
 
     .dopPaddMedia {
@@ -2119,174 +2356,3 @@ p.opasTextTelephone {
         width: 50%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
